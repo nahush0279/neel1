@@ -1,0 +1,132 @@
+body { font-family:Arial, Helvetica, sans-serif !important; font-size:10px; padding:0; margin:0; width:700px !important; }
+/*.innerTitle, .region.region-content { width:700px !important }
+.topStripBg, .headerSearch, .PlayPause, .rightSearchEmblem { display: none; visibility: hidden; }*/
+
+.topStrip { display: none; visibility: hidden; }
+#logo-print { display: inline-block !important; visibility: visible !important; width:50%; }
+h1#logo { display: none !important; visibility: hidden !important; }
+.swavlambanSeal { float: right; margin: 0 0 0 10px; width: auto; }
+.headRight { float: left; padding-top: 10px; width: 100%; }
+.headLink { display: inline-block; list-style-type: none; margin: 0; padding: 0 0 18px; text-align: left; width: 40%; }
+.headSearch { float: right; position: relative; width: 45%; }
+
+.searchBlock input[type="text"] { border: 1px solid #ccc; }
+.indexBanner .sliderBanner .item > img { height: 100%; visibility: visible; width: 100%; }
+ #nav > li > a::after {
+ background-image: none;
+ background-position: 0 center;
+ background-repeat: no-repeat;
+ border: medium none;
+ border-radius: 0;
+ content: "";
+ height: auto;
+ left: 0;
+ margin-left: 0;
+ position: absolute;
+ top: 0;
+ transition: background-color 0.4s ease 0s;
+ width: 71px;
+}
+#nav > li > a { padding: 0; }
+.rightLink { border-bottom: medium none; list-style: inside none disc; }
+.rightLink > li { float: left; padding-bottom: 0 !important; padding-left: 0 !important; width: 100%; }
+.bannerCol1 { float: none; height: 100%; padding-right: 0; width: 100%; }
+.bannerCol2 { float: none; width: 100%; }
+.aboutCol1 { float: none; padding-right: 10px; width: 100%; }
+.aboutCol2 { float: none; width: 100%; }
+.aboutBlock h3 { font-size: 1.2em; }
+#newsTikker0 { height: auto !important; }
+ul.activityTicker { position:static !important; }
+.activityTicker li { opacity: 1 !important; }
+.newsViewAll { display: none; }
+#stopNews0 { display: none !important; }
+.newsUpdatesBox h4 { font-size: 1.2em; }
+.whoWhatHowDesc h3 { font-size: 1.2em; }
+.whoWhatHowImg { float: none; margin: 0 auto; }
+.whoWhatHowDesc { min-height: auto; }
+.whoWhatHowDesc { display: inline-block; float: none; margin-left: 0; padding-left: 0; position: relative; width: 100%; z-index: 0; text-align:center; }
+.wwhItem .whoWhatHowBox .whoWhatHowDesc a.readmore { display: block; padding-top: 10px; position: relative; text-align: center; }
+.readmore { display: block !important; text-align: center; width: 100%; padding-top:10px; }
+.locateGuideCol { float: none; padding-right: 0; width: 100%; margin-bottom:20px; }
+.locateGuideLeft { float: left; width: 50%; }
+.locateGuideRight { float: left; padding-left: 30px; width: 50%; }
+.locateGuideDesc { float: left; margin-left: 0; padding-left: 0; position: relative; text-align: center; width: 100%; z-index: 0; }
+.locateGuideImg { float: none; margin: 0 auto; }
+.guideBtn { margin: 0 auto; padding: 0; }
+.loacteBtn { padding: 0; }
+.locateGuideDesc h4 { font-size: 1.2em; }
+.contactInfoCol { float: none; width: 100%; }
+.footerBottom .copyright { float: none; text-align: left; width: 100%; margin-bottom:20px; }
+.footerBottom .visitorUpdateRow { float: none; width: 100%; text-align:left; }
+.footerLogoList .item { display: inline-block; float: left; padding: 0; text-align: left; width: 50%; }
+.footCol.footCol1 { float: left; width: 50%; }
+.footCol.footCol2 { float: left; width: 50%; }
+.footCol.footCol1.mobileNone { float: left; width: 50%; }
+.footCol3 { float: left; width: 50%; }
+.innerPrints .topStrip { display: none; }
+.innerPrints .swavlambanSeal { display: none; }
+.innerPrints .headRight { display: none; }
+.innerPrints .mainNavigation { display: none; }
+.innerPrints .headerInner { background-color: #503118; padding: 20px 0; }
+.innerPrints .abtBrdBg { margin-bottom: 10px; }
+.innerPrints .abtSectionLeft { display: none; visibility: hidden; }
+.innerPrints .abtSectionRight { float: left; width: 700px; }
+.innerPrints .footerLogo { display: none; visibility: hidden; }
+.innerPrints .footerBtm { display: none; visibility: hidden; }
+.innerPrints .visitorUpdateRow { display: none; visibility: hidden; }
+.headerInner { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; padding: 0; }
+.headLink li a.loginLink::after {
+ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+ padding-left: 0;
+ top: 0;
+}
+.headLink li a { color: #000; padding-left: 0; }
+.headLink li a.regLink::after {
+ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.searchBlock input[type="text"] { background: #fff none repeat scroll 0 0; color: #000 !important; }
+.sliderIncap { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; }
+.sliderPagger { display: none; }
+.rightLink > li { background-color: #fff !important; padding: 5px 10px; }
+.whoWhatHowNewsBlock { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; }
+.guideBtn, .loacteBtn { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; color: #000; }
+.guideBtn:hover, .loacteBtn:hover { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; color: #000; }
+.phoneNumber a::after {
+ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.emailId a::after {
+ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.contactList a { padding-left: 0 !important; }
+.footerBtm { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; padding: 20px 0; }
+.footerBottom { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; color: #000; }
+a { color:#000 !important; }
+a:hover { color:#000 !important; }
+.footLink li a::after {
+ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.footLink li a { padding-left: 0; }
+.quickAccessDiv { color: #000; }
+.copyright { color: #000; }
+.shareThisBlock, .visitorUpdateRow { color: #000; }
+.footerLogo { display: none; }
+.footerBtm {padding: 0; /*display: none;*/}
+.footCol h4 {color: #000;}
+.footerBtm .footCol.footCol3 .quickAccessDiv:last-child {display: none;}
+.footerBottom .visitorUpdateRow { display: none; }
+
+.contactPrint .sectionLeft .contactForm { display: none; }
+.contactPrint .sectionRight { float: none; width: 100%; }
+.contactPrint .sectionRight .abtContact { background: rgba(0, 0, 0, 0) none repeat scroll 0 0; border: medium none; padding: 0; }
+
+.indexBanner  .owl-item.cloned{display: none !important; }
+.indexBanner  .owl-stage{transform:none !important;transition: none !important;width: auto !important;}
+.indexBanner  .owl-item{width: 600px !important; margin-bottom:20px!important;}
+.indexBanner .sliderBanner .item > img, .indexBanner .sliderBanner .item {height: auto!important;}
+.indexBanner  .regNowLink{ display:none!important}
+.menuPart{display:none!important}
+.home_marquee ul {margin: 0!important; width: 650px!important;}
+.home_marquee ul .js-marquee-wrapper {width: 650px !important; margin: 0!important; animation: inherit !important;}
+.home_marquee {padding: 5px!important; background: none!important; color: #000!important; margin-bottom: 30px!important; width: 650px!important;}
+.searchBlock{display:none!important;}
+.home_marquee .js-marquee:last-child{display:none!important;}
